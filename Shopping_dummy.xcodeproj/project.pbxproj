@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B83FBCE22FA82AC00897E5E /* FavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B83FBCD22FA82AC00897E5E /* FavouriteViewController.swift */; };
+		2B83FBD022FA832900897E5E /* FavouriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B83FBCF22FA832900897E5E /* FavouriteCell.swift */; };
 		2BF78A4C22F9E5D0003C3C18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF78A4B22F9E5D0003C3C18 /* AppDelegate.swift */; };
 		2BF78A4E22F9E5D0003C3C18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF78A4D22F9E5D0003C3C18 /* ViewController.swift */; };
 		2BF78A5122F9E5D0003C3C18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BF78A4F22F9E5D0003C3C18 /* Main.storyboard */; };
 		2BF78A5422F9E5D0003C3C18 /* Shopping_dummy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2BF78A5222F9E5D0003C3C18 /* Shopping_dummy.xcdatamodeld */; };
 		2BF78A5622F9E5D1003C3C18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BF78A5522F9E5D1003C3C18 /* Assets.xcassets */; };
 		2BF78A5922F9E5D1003C3C18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BF78A5722F9E5D1003C3C18 /* LaunchScreen.storyboard */; };
+		2BF78A6322F9F2EB003C3C18 /* proDucts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF78A6222F9F2EB003C3C18 /* proDucts.swift */; };
+		2BF78A6522F9FCCF003C3C18 /* Samsungsmart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF78A6422F9FCCF003C3C18 /* Samsungsmart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B83FBCD22FA82AC00897E5E /* FavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewController.swift; sourceTree = "<group>"; };
+		2B83FBCF22FA832900897E5E /* FavouriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteCell.swift; sourceTree = "<group>"; };
 		2BF78A4822F9E5D0003C3C18 /* Shopping_dummy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shopping_dummy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BF78A4B22F9E5D0003C3C18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BF78A4D22F9E5D0003C3C18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +30,8 @@
 		2BF78A5522F9E5D1003C3C18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BF78A5822F9E5D1003C3C18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BF78A5A22F9E5D1003C3C18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BF78A6222F9F2EB003C3C18 /* proDucts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proDucts.swift; sourceTree = "<group>"; };
+		2BF78A6422F9FCCF003C3C18 /* Samsungsmart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Samsungsmart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,7 @@
 		2BF78A3F22F9E5D0003C3C18 = {
 			isa = PBXGroup;
 			children = (
+				2BF78A6222F9F2EB003C3C18 /* proDucts.swift */,
 				2BF78A4A22F9E5D0003C3C18 /* Shopping_dummy */,
 				2BF78A4922F9E5D0003C3C18 /* Products */,
 			);
@@ -60,6 +69,9 @@
 				2BF78A4D22F9E5D0003C3C18 /* ViewController.swift */,
 				2BF78A4F22F9E5D0003C3C18 /* Main.storyboard */,
 				2BF78A5522F9E5D1003C3C18 /* Assets.xcassets */,
+				2BF78A6422F9FCCF003C3C18 /* Samsungsmart.swift */,
+				2B83FBCD22FA82AC00897E5E /* FavouriteViewController.swift */,
+				2B83FBCF22FA832900897E5E /* FavouriteCell.swift */,
 				2BF78A5722F9E5D1003C3C18 /* LaunchScreen.storyboard */,
 				2BF78A5A22F9E5D1003C3C18 /* Info.plist */,
 				2BF78A5222F9E5D0003C3C18 /* Shopping_dummy.xcdatamodeld */,
@@ -138,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BF78A6522F9FCCF003C3C18 /* Samsungsmart.swift in Sources */,
 				2BF78A4E22F9E5D0003C3C18 /* ViewController.swift in Sources */,
+				2B83FBD022FA832900897E5E /* FavouriteCell.swift in Sources */,
+				2BF78A6322F9F2EB003C3C18 /* proDucts.swift in Sources */,
 				2BF78A5422F9E5D0003C3C18 /* Shopping_dummy.xcdatamodeld in Sources */,
+				2B83FBCE22FA82AC00897E5E /* FavouriteViewController.swift in Sources */,
 				2BF78A4C22F9E5D0003C3C18 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
